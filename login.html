@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        body {
+          
+
+          background: linear-gradient(120deg, #e3f2fd, #bbdefb);
+        }
+
+        
+        </style>
+</head>
+<body>
+<div class="bg">
+    <div class="container">
+        <h1>Bank of Islington</h1>
+        <p>"Your trusted financial partner"</p>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="account-number">Account Number:</label>
+                <input type="text" id="account-number" name="account-number" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <p class="error-message" id="errorMessage"></p>
+    </div>
+</div>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
